@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  05/06/2014 11:47:21
+PCBNEW-LibModule-V1  12/06/2014 11:36:14
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,7 +6,7 @@ Jack_6.35_Stereo_SW
 TactileSW
 $EndINDEX
 $MODULE Jack_6.35_Stereo_SW
-Po 0 0 0 15 539093E8 00000000 ~~
+Po 0 0 0 15 5399D6FC 00000000 ~~
 Li Jack_6.35_Stereo_SW
 Sc 0
 AR /53908CC0
@@ -43,21 +43,21 @@ DS -11.25 -9 12.75 -9 0.15 21
 DS 12.75 -9 12.75 11.75 0.15 21
 DS -11.25 11.5 -11.25 -9 0.15 21
 $PAD
-Sh "6" C 2.5 2.5 0 0 0
+Sh "6" R 2.5 2.5 0 0 0
 Dr 1.4 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po -4.25 -7.25
 $EndPAD
 $PAD
-Sh "4" C 2.5 2.5 0 0 0
+Sh "4" R 2.5 2.5 0 0 0
 Dr 1.4 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 1.75 -7.25
 $EndPAD
 $PAD
-Sh "2" C 2.5 2.5 0 0 0
+Sh "2" R 2.5 2.5 0 0 0
 Dr 1.4 0 0
 At STD N 00E0FFFF
 Ne 1 "Audio_Out"
