@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0  Date: 11/07/2014 17:01:58
+#
+$CMP LT1206
+D Audio Power Amp.
+K Audio Power
+$ENDCMP
+#
+$CMP OPA551
+D Audio Power Amp.
+K Audio Power
+$ENDCMP
+#
+#End Doc Library
