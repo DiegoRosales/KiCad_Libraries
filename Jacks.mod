@@ -1,12 +1,79 @@
-PCBNEW-LibModule-V1  02/07/2014 10:51:53
+PCBNEW-LibModule-V1  16/07/2014 10:35:09
 # encoding utf-8
 Units mm
 $INDEX
+DIN5
 Jack_6.35_Stereo_SW
 PRT-08534
 RJ45_8_2
 TactileSW
 $EndINDEX
+$MODULE DIN5
+Po 0 0 0 15 53C69BAB 00000000 ~~
+Li DIN5
+Sc 0
+AR 
+Op 0 0 0
+T0 3.75 -3.5 1 1 0 0.15 N V 21 N "DIN5"
+T1 0 -3.25 1 1 0 0.15 N V 21 N "VAL**"
+DS -4.5 14.5 17.25 14.5 0.15 21
+DS 17.25 14.5 17.25 16.5 0.15 21
+DS 17.25 16.5 -6.75 16.5 0.15 21
+DS -6.75 16.5 -6.75 14.5 0.15 21
+DS -6.75 14.5 -4.5 14.5 0.15 21
+DS 15.25 14.5 15.25 -2.5 0.15 21
+DS 15.25 -2.5 -4.5 -2.5 0.15 21
+DS -4.5 -2.5 -4.5 14.5 0.15 21
+$PAD
+Sh "1" C 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -2.5 2
+$EndPAD
+$PAD
+Sh "2" C 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 2
+$EndPAD
+$PAD
+Sh "3" C 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 12.5 2
+$EndPAD
+$PAD
+Sh "5" C 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 -0.5
+$EndPAD
+$PAD
+Sh "4" C 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10 -0.5
+$EndPAD
+$PAD
+Sh "" C 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0.25 11.5
+$EndPAD
+$PAD
+Sh "" C 2 2 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 10.25 11.5
+$EndPAD
+$EndMODULE DIN5
 $MODULE Jack_6.35_Stereo_SW
 Po 0 0 0 15 53AB86AA 00000000 ~~
 Li Jack_6.35_Stereo_SW

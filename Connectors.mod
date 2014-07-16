@@ -1,0 +1,77 @@
+PCBNEW-LibModule-V1  16/07/2014 11:28:09
+# encoding utf-8
+Units mm
+$INDEX
+PinArray_8x1
+$EndINDEX
+$MODULE PinArray_8x1
+Po 0 0 0 15 53C6A813 00000000 ~~
+Li PinArray_8x1
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -2.25 1 1 0 0.15 N V 21 N "PinArray_8x1"
+T1 0 -3.75 1 1 0 0.15 N I 21 N "VAL**"
+DS -10.16 -0.635 -10.16 1.27 0.15 21
+DS -10.16 1.27 10.16 1.27 0.15 21
+DS 10.16 1.27 10.16 -1.27 0.15 21
+DS 10.16 -1.27 -10.16 -1.27 0.15 21
+DS -10.16 -1.27 -10.16 -0.635 0.15 21
+$PAD
+Sh "5" C 1.27 1.27 0 0 0
+Dr 0.889 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 1.27 0
+$EndPAD
+$PAD
+Sh "4" C 1.27 1.27 0 0 0
+Dr 0.889 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -1.27 0
+$EndPAD
+$PAD
+Sh "6" C 1.27 1.27 0 0 0
+Dr 0.889 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 3.81 0
+$EndPAD
+$PAD
+Sh "7" C 1.27 1.27 0 0 0
+Dr 0.889 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.35 0
+$EndPAD
+$PAD
+Sh "8" C 1.27 1.27 0 0 0
+Dr 0.889 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.89 0
+$EndPAD
+$PAD
+Sh "3" C 1.27 1.27 0 0 0
+Dr 0.889 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -3.81 0
+$EndPAD
+$PAD
+Sh "2" C 1.27 1.27 0 0 0
+Dr 0.889 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -6.35 0
+$EndPAD
+$PAD
+Sh "1" C 1.27 1.27 0 0 0
+Dr 0.889 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -8.89 0
+$EndPAD
+$EndMODULE PinArray_8x1
+$EndLIBRARY
