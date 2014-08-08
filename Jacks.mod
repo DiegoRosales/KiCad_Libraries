@@ -1,9 +1,8 @@
-PCBNEW-LibModule-V1  20/07/2014 19:59:29
+PCBNEW-LibModule-V1  16/07/2014 10:35:09
 # encoding utf-8
 Units mm
 $INDEX
 DIN5
-Jack_3.5mm_Stereo
 Jack_6.35_Stereo_SW
 PRT-08534
 RJ45_8_2
@@ -75,97 +74,6 @@ Ne 0 ""
 Po 10.25 11.5
 $EndPAD
 $EndMODULE DIN5
-$MODULE Jack_3.5mm_Stereo
-Po 0 0 0 15 53CC65E9 00000000 ~~
-Li Jack_3.5mm_Stereo
-Sc 0
-AR 
-Op 0 0 0
-T0 0.5 -14.5 1 1 0 0.15 N V 21 N "Jack_3.5mm_Stereo"
-T1 0.5 -13 1 1 0 0.15 N I 21 N "VAL**"
-DS 2.5 -12 2.5 -11 0.15 21
-DS -2.5 -12 -2.5 -11 0.15 21
-DS -2 -11 2 -11 0.15 21
-DS 2 -9 2 -11 0.15 21
-DS 2 -11 2.5 -11 0.15 21
-DS -2.5 -11 -2 -11 0.15 21
-DS -2 -11 -2 -9 0.15 21
-DS 2.5 -12 -2.5 -12 0.15 21
-DS -6 -9 6 -9 0.15 21
-DS 6 -9 6 2 0.15 21
-DS 6 2 -6 2 0.15 21
-DS -6 2 -6 -9 0.15 21
-$PAD
-Sh "T_SW" C 2 2 0 0 0
-Dr 1.6 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -2.5 0
-$EndPAD
-$PAD
-Sh "R_SW" C 2 2 0 0 0
-Dr 1.6 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 2.5 0
-$EndPAD
-$PAD
-Sh "T" C 2 2 0 0 0
-Dr 1.6 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po -5 0
-$EndPAD
-$PAD
-Sh "R" C 2 2 0 0 0
-Dr 1.6 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 5 0
-$EndPAD
-$PAD
-Sh "S" C 2 2 0 0 0
-Dr 1.6 0 0
-At STD N 00E0FFFF
-Ne 0 ""
-Po 0 -5
-$EndPAD
-$PAD
-Sh "" C 1.25 1.25 0 0 0
-Dr 1.25 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -5 -5
-$EndPAD
-$PAD
-Sh "" C 1.25 1.25 0 0 0
-Dr 1.25 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 5 -5
-$EndPAD
-$PAD
-Sh "" C 1.25 1.25 0 0 0
-Dr 1.25 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po -5 -7.5
-$EndPAD
-$PAD
-Sh "" C 1.25 1.25 0 0 0
-Dr 1.25 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 5 -7.5
-$EndPAD
-$PAD
-Sh "" C 1.25 1.25 0 0 0
-Dr 1.25 0 0
-At HOLE N 00E0FFFF
-Ne 0 ""
-Po 0 0
-$EndPAD
-$EndMODULE Jack_3.5mm_Stereo
 $MODULE Jack_6.35_Stereo_SW
 Po 0 0 0 15 53AB86AA 00000000 ~~
 Li Jack_6.35_Stereo_SW
